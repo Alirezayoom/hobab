@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+}
+
+.hero {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 5px 30px;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.plus {
+  border-radius: 100px;
+  margin-right: 5px;
+  translate: 0 2px;
+}
