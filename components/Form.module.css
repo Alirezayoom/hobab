@@ -1,0 +1,48 @@
+.form {
+  z-index: 111;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-color: rgba(25, 39, 57, 0.1);
+  backdrop-filter: blur(80px);
+  display: flex;
+  justify-content: center;
+}
+
+.formbox {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.formbox form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+  padding: 10px;
+}
+
+.name,
+.text {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 14px;
+  border-radius: 15px;
+  border: 0;
+  outline: none;
+  color: #222;
+  font-size: 14px;
+  caret-color: red;
+  box-sizing: inset 0 0 30px rgba(255, 255, 255, 0.1);
+  color: white;
+  resize: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,4 +1,4 @@
-import classes from "./Hobab.module.css";
+import classes from "./Card.module.css";
 
 export default function Hobab() {
   return (

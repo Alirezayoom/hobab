@@ -1,0 +1,85 @@
+.about {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(25, 39, 57, 0.1);
+  backdrop-filter: blur(80px);
+
+  display: flex;
+  justify-content: center;
+
+  z-index: 111;
+}
+
+.aboutbox {
+  position: relative;
+
+  width: 500px;
+  height: 100vh;
+}
+
+.box {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+
+  backdrop-filter: blur(40px);
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border-radius: 10px;
+
+  right: 10px;
+  top: 64px;
+
+  /* box-sizing: inset 0 0 30px rgba(255, 255, 255, 0.1); */
+  color: white;
+
+  padding: 20px;
+}
+
+.socialMedias {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 50px;
+  color: #ddd;
+}
+
+.socialMedias div:hover {
+  cursor: pointer;
+  color: #fff;
+  transition: 500ms;
+  translate: 0px -3px;
+}
+
+.triangle {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  position: absolute;
+  top: -15.5px;
+  right: 14.2px;
+  clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%);
+
+  backdrop-filter: blur(40px);
+
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin: 10px 0;
+}
+
+.love {
+  font-weight: 300;
+  font-size: 14px;
+}
