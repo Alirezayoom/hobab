@@ -17,7 +17,7 @@ export default function Hero() {
     <>
       <div className={classes.hero}>
         <div className={classes.topIcons}>
-          <div onClick={() => setDark(!dark)}>
+          <div className={classes.dark} onClick={() => setDark(!dark)}>
             {dark ? <DarkModeIcon /> : <LightModeIcon />}
           </div>
           <div className={classes.info} onClick={() => setInfo(!info)}>
@@ -27,7 +27,7 @@ export default function Hero() {
         <div className={classes.title}>Hobab</div>
         <div className={classes.description}>
           <div>Write what in your mind is.</div>
-          <div>A sentence, poute, quote or anything else.</div>
+          <div>A sentence, poem or quote.</div>
         </div>
         <button className={classes.button} onClick={() => setAdd(!add)}>
           <span className={classes.plus}>

@@ -54,6 +54,11 @@
   justify-content: space-between;
 }
 
+.info,
+.dark {
+  cursor: pointer;
+}
+
 .info {
   z-index: 222;
 }
