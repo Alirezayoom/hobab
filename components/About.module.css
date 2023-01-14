@@ -47,7 +47,6 @@
 .socialMedias {
   display: flex;
   gap: 16px;
-  margin-bottom: 50px;
   color: #ddd;
 }
 
@@ -72,11 +71,22 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+
 .line {
   width: 100%;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.25);
   margin: 10px 0;
+}
+
+.version {
+  font-size: 12px;
+  padding-left: 4px;
 }
 
 .love {
