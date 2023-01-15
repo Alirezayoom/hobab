@@ -17,7 +17,7 @@ export default function About() {
 
           <div className={classes.socialMedias}>
             <div>
-              <Link href="t.me/alirezayoom">
+              <Link href="https://www.github.com/alirezayoom">
                 <GithubIcon />
               </Link>
             </div>
