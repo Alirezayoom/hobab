@@ -4,6 +4,7 @@ import Telegram from "./icons/Telegram";
 import Linkedin from "./icons/Linkedin";
 import Link from "next/link";
 import GithubIcon from "./icons/GithubIcon";
+import CodeIcon from "./icons/CodeIcon";
 
 export default function About() {
   return (
@@ -22,13 +23,13 @@ export default function About() {
               </Link>
             </div>
             <div>
-              <Link href="t.me/alirezayoom">
+              <Link href="https://t.me/alirezayoom">
                 <Telegram />
               </Link>
             </div>
 
             <div>
-              <Link href="/">
+              <Link href="https://www.linkedin.com/in/alirezayoom">
                 <Linkedin />
               </Link>
             </div>
@@ -42,7 +43,9 @@ export default function About() {
           <div className={classes.triangle}></div>
 
           <div className={classes.line}></div>
-          <div className={classes.love}>Made with ❤️ in Herat</div>
+          <div className={classes.love}>
+            <CodeIcon /> <p>with ❤️ by Next</p>
+          </div>
         </div>
       </div>
     </div>

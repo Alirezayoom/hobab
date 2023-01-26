@@ -53,8 +53,8 @@
 .socialMedias div:hover {
   cursor: pointer;
   color: #fff;
-  transition: 500ms;
-  translate: 0px -3px;
+  transition: all 300ms;
+  translate: 0px -2px;
 }
 
 .triangle {
@@ -73,7 +73,7 @@
 
 .title {
   font-size: 28px;
-  font-weight: 900;
+  font-weight: 800;
   font-variant: small-caps;
 }
 
@@ -87,9 +87,13 @@
 .version {
   font-size: 12px;
   padding-left: 4px;
+  font-weight: 500;
 }
 
 .love {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
