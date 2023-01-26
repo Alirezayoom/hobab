@@ -20,14 +20,31 @@ export default function Hero() {
           <div className={classes.dark} onClick={() => setDark(!dark)}>
             {dark ? <DarkModeIcon /> : <LightModeIcon />}
           </div>
-          <div className={classes.info} onClick={() => setInfo(!info)}>
+          <div
+            className={classes.info}
+            onClick={() => setInfo(!info)}
+            style={
+              info
+                ? {
+                    position: "fixed",
+                    zIndex: "121",
+                    maxWidth: "500px",
+                    width: "100%",
+                    margin: "0 auto 0",
+                    display: "flex",
+                    justifyContent: "end",
+                    paddingRight: "40px",
+                  }
+                : {}
+            }
+          >
             <AboutIcon />
           </div>
         </div>
         <div className={classes.title}>Hobab</div>
         <div className={classes.description}>
           <div>Write what in your mind is.</div>
-          <div>A sentence, poem or quote.</div>
+          <div>A poem, quote or anything else.</div>
         </div>
         <button className={classes.button} onClick={() => setAdd(!add)}>
           <span className={classes.plus}>
