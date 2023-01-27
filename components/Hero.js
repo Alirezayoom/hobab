@@ -7,6 +7,7 @@ import DarkModeIcon from "./icons/DarkModeIcon";
 import LightModeIcon from "./icons/LightModeIcon";
 import AboutIcon from "./icons/AboutIcon";
 import About from "./About";
+import Button from "./common/Button";
 
 export default function Hero() {
   const [dark, setDark] = useState(true);
@@ -46,12 +47,12 @@ export default function Hero() {
           <div>Write what in your mind is.</div>
           <div>A poem, quote or anything else.</div>
         </div>
-        <button className={classes.button} onClick={() => setAdd(!add)}>
+        <Button onClick={() => setAdd(!add)}>
           <span className={classes.plus}>
             <PlusIcon />
           </span>
           Add
-        </button>
+        </Button>
       </div>
 
       {add && <Form onAdd={() => setAdd(!add)} />}
