@@ -49,7 +49,7 @@ export default function Form({ onAdd }) {
             className={classes.text}
             rows={10}
             cols={5}
-            placeholder="Your text..."
+            placeholder="Your text here (can be in Persian, English or any other language.)"
             ref={postRef}
           ></textarea>
           <div className={classes.buttons}>
