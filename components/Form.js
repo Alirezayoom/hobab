@@ -33,6 +33,11 @@ export default function Form({ onAdd }) {
   return (
     <div className={classes.form}>
       <div className={classes.formbox}>
+        <div className={classes.title}>Hobab</div>
+        <div className={classes.description}>
+          <div>Write what in your mind is.</div>
+          <div>A poem, quote or anything else.</div>
+        </div>
         <form onSubmit={submitHandler}>
           <input
             className={classes.name}

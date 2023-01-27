@@ -14,8 +14,9 @@
 .formbox {
   width: 500px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  justify-items: center;
+  text-align: center;
 }
 
 .formbox form {
@@ -23,7 +24,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  width: 100vw;
   padding: 10px;
 }
 
@@ -45,4 +45,14 @@
 .buttons {
   display: flex;
   justify-content: space-between;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 30px;
 }
