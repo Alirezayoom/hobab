@@ -10,7 +10,7 @@
   margin-left: 0;
   margin-right: 0;
   z-index: 100;
-  padding: 20px;
+  padding: 5px 20px 20px;
   border-width: 0px;
   box-shadow: inset 0px 0px 30px 0px rgba(255, 255, 255, 0.1);
   border-style: solid;
@@ -22,34 +22,30 @@
   backdrop-filter: blur(40px);
 }
 
-.number {
-  font-size: 20px;
+.name {
+  font-size: 16px;
   color: white;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .text {
   font-size: 16px;
   color: white;
   text-align: center;
+  margin: 16px 0;
 }
 
 .line {
   width: 100%;
   height: 1px;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin: 20px 0 7px;
+  background-color: rgba(255, 255, 255, 0.11);
+  margin: 10px 0;
 }
 
-.dateAuthor {
+.date {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   color: rgba(255, 255, 255, 0.9);
-}
-
-.date,
-.name {
-  font-size: 14px;
+  font-size: 12px;
 }
