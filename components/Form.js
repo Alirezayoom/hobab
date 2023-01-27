@@ -1,6 +1,6 @@
 import classes from "./Form.module.css";
 import { useRef } from "react";
-import Button from "./Button";
+import Button from "./common/Button";
 
 export default function Form({ onAdd }) {
   const nameRef = useRef();
